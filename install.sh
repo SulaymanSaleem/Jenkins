@@ -6,7 +6,7 @@ sudo usermod --shell /bin/bash jenkins
 
 sudo su - jenkins -c"wget https://updates.jenkins-ci.org/latest/jenkins.war"
 sudo cp jenkins.service /../../../../etc/systemd/system
-sudo system1 daemon-reload
+sudo systemctl daemon-reload
 
 sudo systemctl start jenkins
 
