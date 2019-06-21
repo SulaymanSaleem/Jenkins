@@ -1,9 +1,9 @@
 sudo systemctl stop jenkins
 
-sudo apt-get remove --purge jenkins
+sudo apt-get remove --purge jenkinsusr
 
-sudo userdel jenkins
+sudo userdel jenkinsusr
 
-sudo rm -r /home/jenkins
+sudo rm -r /home/jenkinsusr
 
 sudo rm /etc/systemd/system/jenkins.service
