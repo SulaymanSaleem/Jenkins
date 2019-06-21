@@ -2,10 +2,10 @@
 Description=Jenkins
 
 [Service]
-User=jenkins
+User=jenkinsusr
 
 WorkingDirectory=/home/jenkins
-ExecStart=/usr/bin/java -jar /home/jenkins/jenkins.war
+ExecStart=/usr/bin/java -jar /home/jenkinsusr/jenkins.war
 
 [Install]
 WantedBy=multi-user.target
