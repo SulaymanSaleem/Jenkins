@@ -1,6 +1,6 @@
 sudo systemctl stop jenkins
 
-sudo su - jenkins -c "wget http://updates.jenkins-ci.org/latest/jenkins.war"
+sudo su - jenkinsusr -c "wget http://updates.jenkins-ci.org/latest/jenkins.war"
 
 sudo systemctl daemon-reload
 
